@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="restaurant-menu.css" rel="stylesheet" />
+    <title>Pizzeria Hamster Tom</title>
+</head>
+<body>
+    <header>
+        <h1> Pizzeria Hamster Tom </h1>
+        <img 
+        id="header-img"
+        width="350"
+        src="https://i5.walmartimages.com/asr/56534950-5719-47f6-8207-c3f64c99348a.dd49ea437e1f28dde75f71224da7e86a.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF">
+    <nav>
+      <ul>
+        <li ><a href="#menu">Menu</a></li>
+         <li ><a href="#order">Place your order</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2> Menu</h2>
+            <article>
+                <img 
+                width="250"
+                src="https://www.stefanofaita.com/wp-content/uploads/2022/04/pizzamargherita1.jpg">
+                <h3>1.Margherita</h3>
+                <p> tomato sauce, mozzarella, basil  <br> <br> <i> 5 EUR</i></p>
+            </article>
+
+            <article>
+                <img 
+                width="250"
+                src="https://foodbydrygast.com/assets/images/recipes/swedish_pizza_capricciosa1x1a1080w1080h.webp">
+                <h3> 2.Capricciosa</h3>
+                <p> tomato sauce, mozzarella, mushrooms, ham <br> <br> <i> 7 EUR</i></p>
+            </article>
+ 
+            <article>
+                <img 
+                width="250"
+                src="https://138151930.cdn6.editmysite.com/uploads/1/3/8/1/138151930/UF32JET3V6FUIXGT26XKOXWW.jpeg">
+                <h3> 3.Quattro Formaggi</h3>
+                <p> tomato sauce, mozzarella, parmesan, gorgonzola, edam <br> <br> <i> 7 EUR</i></p>
+            </article>
+
+            <article>
+                <img 
+                width="250"
+                src="https://www.simplyrecipes.com/thmb/pjYMLcsKHkr8D8tYixmaFNxppPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg">
+                <h3> 4.Pepperoni</h3>
+                <p> tomato sauce, mozzarella, pepperoni <br> <br> <i> 9 EUR</i></p>
+            </article>
+        </section>
+
+        <section id="order">
+            <h2> Place your order:</h2>
+            <form>
+                
+                <label>1.Margherita </label> <input type="number" min="0">
+                <label>2.Capricciosa</label> <input type="number" min="0">
+                <label>3.Quattro Formaggi</label> <input type="number" min="0">
+                <label>4.Pepperoni</label> <input type="number" min="0">
+            </form>
+
+            <h3> Add-on:</h3>
+            <input type="radio" name="option">olives <br>
+            <input type="radio" name="option">extra sauce<br>
+            <input type="radio" name="option">extra cheese<br>
+            <input type="radio" name="option">pepperoni <br>
+
+            <h3> Special request:</h3>
+            <textarea id="special-request" rows="8" cols="40" placeholder="Special request"></textarea>
+
+           <h3> Checkout:</h3>
+            <a href="https://i.imgflip.com/2dpkr9.jpg"> <input type ="submit" value="Go To Checkout" id="checkout"></a>
+          
+           
+        </section>
+    </main>
+
+    <footer>
+        <p> <b>Made with love by InaIvana </b></p>
+    </footer>
+</body>
+</html>
